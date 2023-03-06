@@ -7,12 +7,10 @@ String func(String s) {
         str: answer
     """;
   //your code here
-
-
-  return 's';
+  String str = s[4];
+  return str;
 }
 
 void main() {
-  String S = "mirjalol";
-print(S[7]);
+print(func('jalol'));
 }
