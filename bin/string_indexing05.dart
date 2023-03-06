@@ -8,5 +8,10 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String str = s[3] + s[4];
+  return str;
+}
+
+void main() {
+  print(func('mirjalol'));
 }
