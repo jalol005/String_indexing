@@ -8,10 +8,16 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  String str = s[3] + s[4];
-  return str;
+  String answer;
+  if (s.length % 2 == 0) {
+    return answer = s[s.length ~/ 2 - 1] + s[s.length ~/ 2];
+  } else {
+    return answer = s[s.length ~/ 2];
+  }
+
+  return answer;
 }
 
 void main() {
-  print(func('mirjalol'));
+  print(func('navruzolam2023'));
 }

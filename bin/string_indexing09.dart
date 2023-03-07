@@ -7,5 +7,15 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String answer = '';
+  int i = 3;
+  while (i >= 0) {
+    i--;
+    return answer = s[i - 1] + s[i - 2];
+  }
+  return answer;
+}
+
+void main() {
+  print(func('uzb_pubg'));
 }

@@ -7,10 +7,11 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  String str = s[4];
-  return str;
+  int a=s.length;
+  String answer = s[a-1];
+  return answer;
 }
 
 void main() {
-print(func('jalol'));
+print(func('qishloq'));
 }
